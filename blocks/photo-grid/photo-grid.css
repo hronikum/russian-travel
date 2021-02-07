@@ -1,0 +1,10 @@
+.photo-grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0 42px;
+  margin-top: 92px;
+}

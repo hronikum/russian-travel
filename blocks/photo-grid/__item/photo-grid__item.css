@@ -1,0 +1,24 @@
+.photo-grid__item {
+  align-self: flex-start;
+  box-sizing: border-box;
+  max-width: calc((100% / 4) - 14px);
+  margin: 0;
+  margin-right: 14px;
+  margin-bottom: 14px;
+}
+
+.photo-grid__item:nth-child(4n) {
+  margin-right: 0;
+}
+
+/* @media screen and (max-width: 1024) {
+  .photo-grid__item:nth-child(3n) {
+    margin-right: 0;
+  }
+} */
+
+@media screen and (max-width: 768) {
+  .photo-grid__item:nth-child(2n) {
+    margin-right: 0;
+  }
+}

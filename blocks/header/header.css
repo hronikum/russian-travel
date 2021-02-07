@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: calc(100% - 96px);
+  height: 52px;
+  margin: 28px 48px 0 48px;
+}
+
+

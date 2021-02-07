@@ -1,0 +1,10 @@
+.place__title {
+  grid-area: title;
+  margin: 0;
+  margin-bottom: 48px;
+  max-width: 100%;
+  box-sizing: border-box;
+  font-size: 72px;
+  line-height: 1.05;
+  font-weight: bold;
+}
