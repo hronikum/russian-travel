@@ -1,5 +1,5 @@
 .header__lang-link{
-  display: inline;
+  display: inline-flex;
   margin-right: 18px;
 }
 

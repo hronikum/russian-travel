@@ -1,5 +1,5 @@
 .footer__list-item {
-  display: inline;
+  display: inline-flex;
   margin-right: 18px;
 }
 
