@@ -6,16 +6,23 @@
 }
 
 @font-face {
-  src: url('../../vendor/fonts/Inter-Black.ttf');
+  src: url('../../vendor/fonts/Inter-Bold.ttf');
   font-family: 'Inter';
   font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  src: url('../../vendor/fonts/Inter-Black.ttf');
+  font-family: 'Inter';
+  font-weight: 900;
   font-style: normal;
 }
 
 .page{
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: stretch;
   max-width: 100%;
   box-sizing: border-box;
   font-family: 'Inter', sans-serif;

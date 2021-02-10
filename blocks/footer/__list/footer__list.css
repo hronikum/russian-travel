@@ -4,4 +4,13 @@
   list-style: none;
   font-size: 16px;
   line-height: 1.1;
+  min-width: fit-content;
 }
+
+@media screen and (max-width: 768px) {
+  .footer__list {
+    font-size: 24px;
+    margin-bottom: 48px;
+  }
+}
+

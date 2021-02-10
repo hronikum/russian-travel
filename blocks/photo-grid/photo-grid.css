@@ -5,6 +5,19 @@
   justify-content: center;
   box-sizing: border-box;
   max-width: 100%;
-  margin: 0 42px;
-  margin-top: 92px;
+  margin: 92px 48px 0 48px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .photo-grid{
+    margin: 88px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .photo-grid{
+    margin: 64px 16px 0 16px;
+    max-width: 100%;
+  }
 }

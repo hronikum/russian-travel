@@ -5,3 +5,10 @@
   justify-content: space-between;
   margin: 92px 48px 24px 48px;
 }
+
+@media screen and (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    margin: 62px auto 24px 16px;
+  }
+}

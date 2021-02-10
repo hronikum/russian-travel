@@ -1,5 +1,34 @@
 .intro {
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
-  max-width: 690px;
-  margin: 92px 0 0 148px;
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 92px auto 0 auto;
 }
+
+@media screen and (max-width: 1440px) {
+  .intro{
+    margin: 96px 48px 0 96px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .intro{
+    margin: 48px 48px 0 48px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro{
+    margin: 88px 24px 0 24px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro{
+    margin: 64px 16px 0 16px;
+    max-width: 100%;
+  }
+}
+
