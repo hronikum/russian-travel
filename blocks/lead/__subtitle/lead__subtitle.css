@@ -6,6 +6,7 @@
   line-height: 1.2;
   font-weight: normal;
   text-align: center;
+  text-rendering: optimizeLegibility;
 }
 
 @media screen and (max-width: 768px) {

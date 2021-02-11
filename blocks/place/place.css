@@ -41,18 +41,10 @@
     "paragraph";
     max-width: 100%;
     margin-bottom: 50px;
-    column-gap: 40px;
+    column-gap: 0;
   }
 
   .place:last-child {
     margin-bottom: 0;
   }
 }
-
-@media screen and (max-width: 425px) {
-  .place{
-
-  }
-}
-
-

@@ -1,20 +1,20 @@
 .cover {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
+  position: relative;
   margin: 0;
   margin-top: 92px;
-  background-image: url('../../image/cover-trains.jpg');
+  background-image:url('../../image/cover-trains.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  object-fit: cover;
   max-width: 100%;
 }
+
 
 @media screen and (max-width: 425px) {
   .cover{
     margin: 0;
     margin-top: 66px;
+    max-height: 200px;
   }
 }
