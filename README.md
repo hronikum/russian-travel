@@ -6,4 +6,4 @@
 * Картинки
 
 **Интро**
-Публичная ссылка на проект: https://hronikum.github.io/russian-travel/ые
+Публичная ссылка на проект: https://hronikum.github.io/russian-travel/
