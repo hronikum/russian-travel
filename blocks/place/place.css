@@ -1,37 +1,33 @@
 .place{
   display: grid;
   align-self: center;
-  max-width: 1440px;
-  margin: 0;
-  margin-bottom: 80px;
+  max-width: 984px;
+  margin: 80px auto 0 auto;
   grid-template-columns: 1fr 1fr;
   column-gap: 40px;
-  grid-template-rows: repeat(3, auto);
   grid-template-areas:
   "title website"
   "image paragraph";
 }
 
-
-@media screen and (max-width: 1440px) {
-  .place{
-
-  }
+.place:first-child{
+  margin-top: 0;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .place{
     column-gap: 32px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .place{
+    margin-top: 73px;
     column-gap: 28px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .place{
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -39,12 +35,7 @@
     "website"
     "image"
     "paragraph";
-    max-width: 100%;
-    margin-bottom: 50px;
+    margin-top: 50px;
     column-gap: 0;
-  }
-
-  .place:last-child {
-    margin-bottom: 0;
   }
 }

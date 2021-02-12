@@ -2,19 +2,24 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  margin: 0;
-  margin-top: 92px;
-  background-image:url('../../image/cover-trains.jpg');
+  margin: 92px auto 0 auto;
+  max-width: 1184px;
+  max-height: 740px;
+  background-image:url('../../images/cover-trains.jpg');
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 100%;
+  background-size: cover;
 }
 
+@media screen and (max-width: 1279px) {
+  .cover{
+    max-width: 1024px;
+    max-height: 640px;
+  }
+}
 
 @media screen and (max-width: 425px) {
   .cover{
-    margin: 0;
     margin-top: 66px;
-    max-height: 200px;
   }
 }

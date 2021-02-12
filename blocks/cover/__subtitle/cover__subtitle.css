@@ -13,14 +13,12 @@
 
 @media screen and (max-width: 1280px) {
   .cover__subtitle {
-    margin-top: 32px;
     margin-bottom: 195px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   .cover__subtitle {
-    margin-top: 32px;
     margin-bottom: 115px;
   }
 }
