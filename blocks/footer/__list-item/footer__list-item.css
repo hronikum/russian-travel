@@ -9,10 +9,6 @@
   margin-right: 0;
 }
 
-.footer__list-item:hover {
-  opacity: .8;
-}
-
 @media screen and (max-width: 767px) {
   .footer__list-item {
     display: block;

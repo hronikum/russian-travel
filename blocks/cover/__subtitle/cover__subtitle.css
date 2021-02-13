@@ -11,19 +11,26 @@
   z-index: 2;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1279px) {
   .cover__subtitle {
     margin-bottom: 195px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .cover__subtitle {
     margin-bottom: 115px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    margin: 24px 16px 74px 16px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 424px) {
   .cover__subtitle {
     margin: 16px 16px 33px 16px;
     font-size: 14px;

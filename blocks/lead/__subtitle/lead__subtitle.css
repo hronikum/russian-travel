@@ -9,13 +9,16 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__subtitle {
-    font-size: 24px;
+    max-width: 400px;
+    margin-top: 24px;
+    font-size: 20px;
+    line-height: 1.2;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 424px) {
   .lead__subtitle {
     margin-top: 16px;
     font-size: 16px;

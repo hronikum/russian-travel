@@ -4,6 +4,7 @@
   align-items: center;
   margin: 0;
   max-width: 100%;
+  min-height: 740px;
   text-decoration: none;
 }
 
@@ -23,3 +24,20 @@
   opacity: .8;
 }
 
+@media screen and (max-width: 1279px) {
+  .cover__overlay {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .cover__overlay {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .cover__overlay {
+    min-height: 200px;
+  }
+}
